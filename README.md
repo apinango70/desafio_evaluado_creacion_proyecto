@@ -1,24 +1,81 @@
-# README
+# Portafolio minimalista v 1.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*Proyecto de elaboración de un portafolio dearrollado en Ruby on Rails*
 
-Things you may want to cover:
+## Comenzando 🚀
 
-* Ruby version
+Para descargar (clonar) este repositorio debes ejecutar en tu cónsola:
 
-* System dependencies
+```
+git clone https://github.com/apinango70/desafio_evaluado_creacion_proyecto
+```
 
-* Configuration
+Mira **Deployment** para conocer como desplegar el proyecto en GitHub Pages.
 
-* Database creation
+### Pre-requisitos 📋
 
-* Database initialization
+_Para ejecutar este proyecto, debes tener instalado ruby_
 
-* How to run the test suite
+```
+https://rubyinstaller.org/
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Luego de instalar ruby, debes instalar la gema bundler
 
-* Deployment instructions
+```
+gem install bundler
+```
 
-* ...
+Instalar la gema rails
+
+```
+gem install rails
+```
+
+### Instalación 🔧
+
+_Para ejecutar localmente este proyecto, debes garantizar que todas las dependencias de gemas estén configuradas correctamente, para eso debes ejecutar_
+
+
+```
+bundler install
+```
+
+_una vez que has acctualizado todas las gemas, corre el servidor_
+
+```
+rails s
+```
+
+
+
+## Despliegue 📦
+
+_Puedes hacer deploy de este proyeccto en heroku, netlify o github pages_
+
+## Construido con 🛠️
+
+_Para el desarrollo de este proyecto se utilizaron las sigientes heramientas_
+
+* [Rails](https://rubyonrails.org/) 
+* [Ruby](https://www.ruby-lang.org/es/) 
+ 
+
+## Contribuyendo 🖇️
+
+Por favor siéntete libre de enviar pull requests y hacer forks.
+
+
+
+## Autores ✒️
+
+
+* **Alejandro Piñango** - *Trabajo Inicial y Documentación* - [apinango](https://github.com/apinango70)
+ 
+
+ 
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
