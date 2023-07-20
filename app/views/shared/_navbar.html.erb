@@ -4,9 +4,7 @@
     <%# Logo del navbar %>
     <%= image_tag ('logo.png'), :alt => 'logo navbar'%>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -15,7 +13,7 @@
         </li>
         <li class="nav-item">
           <%# <a class="nav-link" href="#">Features</a> %>
-          <%= link_to "Projects", pages_projects_path, class:"nav-link active" %> 
+          <%= link_to "Projects", projects_path, class:"nav-link active" %> 
         </li>
         <li class="nav-item">
           <%# <a class="nav-link" href="#">Pricing</a> %>

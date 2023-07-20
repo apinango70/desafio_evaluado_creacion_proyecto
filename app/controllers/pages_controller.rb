@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   def projects
   end
 
-  def contac
+  def contact
   end
 end
